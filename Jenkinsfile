@@ -11,5 +11,10 @@ pipeline {
         echo 'make build'
       }
     }
+    stage('Test') {
+      steps {
+        echo 'to test'
+      }
+    }
   }
 }
