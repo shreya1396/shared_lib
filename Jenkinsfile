@@ -6,5 +6,10 @@ pipeline {
         echo 'To install dependencies'
       }
     }
+    stage('Build') {
+      steps {
+        echo 'make build'
+      }
+    }
   }
 }
