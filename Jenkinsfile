@@ -4,8 +4,6 @@ pipeline {
     stage('Install ') {
       steps {
         echo 'To install dependencies'
-        sh 'apt-get update'
-        sh 'apt-get install vim'
       }
     }
     stage('Build') {
